@@ -7,6 +7,7 @@ import ChatbotFour from './ChatbotFour';
 import Chatbotdq from './Chatbotdq';
 import Chatbotdq2 from './Chatbotdq2';
 import Chatbotdq3 from './Chatbotdq3';
+import Chatbotdq4 from './Chatbotdq4';
 import Home from './Home';
 import Chatbot2 from './Chatbot2';
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/engsf2200" element={<ChatbotTwo />} /> */}
         <Route path="/thousands1" element={<Chatbotdq2 />} />
         <Route path="/ss-increase" element={<Chatbotdq3 />} />
+        <Route path="/rag" element={<Chatbotdq4 />} />
         {/* <Route path="/engsf2200dup" element={<ChatbotFour />} />
         <Route path="/engsafe1" element={<Chatbot2 />} /> */}
       </Routes>
