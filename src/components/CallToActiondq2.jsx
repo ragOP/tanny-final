@@ -100,7 +100,7 @@ const CallToAction = ({ finalMessage, switchNumber }) => {
   // Fire both pixels on pointerdown so they queue before tel: navigation
   const handlePointerDown = () => {
     fireRawCallNBPixel();
-    fireRaTagConversion();
+    // fireRaTagConversion();
   };
 
   return (
