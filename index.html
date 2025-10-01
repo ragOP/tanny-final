@@ -24,6 +24,28 @@
   nbpix('event', 'pageload');
 </script>
 <!-- End NB Pixel Snippet -->
+
+<!-- RaTag base snippet -->
+<script async src="https://a.ads.rmbl.ws/ratag?id=AV-12797"></script>
+<script>
+  window._ratagData = window._ratagData || [];
+  function ratag() {
+    _ratagData.push(arguments);
+  }
+</script>
+<script>
+  function ratag_conversion(url) {
+    let callback = function () {
+      if (typeof url !== "undefined") {
+        window.location = url;
+      }
+    };
+
+    ratag("conversion", { to: 3105, callback: callback });
+    return false;
+  }
+</script>
+
   </head>
   <body>
    
