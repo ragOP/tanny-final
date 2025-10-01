@@ -79,11 +79,11 @@ const CallToAction = ({ finalMessage, switchNumber }) => {
       transition={{ duration: 0.8 }}
     >
       {/* Tiny verification chip (shows the last time raw_call was sent) */}
-      <div className="absolute -top-2 right-2">
+      {/* <div className="absolute -top-2 right-2">
         <div className="rounded-full bg-black/80 text-white text-[11px] px-2 py-1">
           NB: {firedAt ? `sent ${firedAt.toLocaleTimeString()}` : "idle"}
         </div>
-      </div>
+      </div> */}
 
       <motion.div
         className="bg-green-100 text-green-700 text-center p-3 rounded-md w-full max-w-md"
