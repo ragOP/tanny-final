@@ -20,9 +20,9 @@ const App = () => {
         {/* <Route path="/engsf1" element={<Chatbotdq />} />
         <Route path="/engsfdq" element={<Chatbotdq2 />} />
         <Route path="/engsf2200" element={<ChatbotTwo />} /> */}
-        <Route path="/thousands1" element={<Chatbotdq2 />} />
-        <Route path="/ss-increase" element={<Chatbotdq3 />} />
-        <Route path="/rag" element={<Chatbotdq4 />} />
+        <Route path="/food-ths" element={<Chatbotdq2 />} />
+        {/* <Route path="/ss-increase" element={<Chatbotdq3 />} />
+        <Route path="/rag" element={<Chatbotdq4 />} /> */}
         {/* <Route path="/engsf2200dup" element={<ChatbotFour />} />
         <Route path="/engsafe1" element={<Chatbot2 />} /> */}
       </Routes>
