@@ -110,7 +110,7 @@ const CallToAction = ({ finalMessage, switchNumber }) => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      {/* Verification chips */}
+     
       {/* <div className="absolute -top-2 right-2 space-y-1">
         <div className="rounded-full bg-black/80 text-white text-[11px] px-2 py-1">
           NB: {nbFiredAt ? `sent ${nbFiredAt.toLocaleTimeString()}` : "idle"}
